@@ -1,0 +1,478 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0020)http://www.yale.edu/ -->
+<HTML><HEAD>
+<TITLE>IMMR!Institute for Metal-based Material Research</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content="Home page for Yale University, New Haven CT" name=description>
+<META 
+content="Yale, Yale College, Yale Graduate School, Yale University, Yale Home, Yale Homepage, Yale Front Door, Yale Web, Yale Webmaster, New Haven Connecticut" 
+name=keywords>
+<LINK href="file:///I|/images/global/y.ico" rel="shortcut icon">
+<STYLE type=text/css>#aboutMenu {
+	Z-INDEX: 20; LEFT: 149px; VISIBILITY: hidden; POSITION: absolute; TOP: 76px
+}
+#academicsMenu {
+	Z-INDEX: 20; LEFT: 149px; VISIBILITY: hidden; POSITION: absolute; TOP: 76px
+}
+#admissionsMenu {
+	Z-INDEX: 20; LEFT: 149px; VISIBILITY: hidden; POSITION: absolute; TOP: 76px
+}
+#alumniMenu {
+	Z-INDEX: 20; LEFT: 149px; VISIBILITY: hidden; POSITION: absolute; TOP: 76px
+}
+#livingMenu {
+	Z-INDEX: 20; LEFT: 149px; VISIBILITY: hidden; POSITION: absolute; TOP: 76px
+}
+#workingMenu {
+	Z-INDEX: 20; LEFT: 149px; VISIBILITY: hidden; POSITION: absolute; TOP: 76px
+}
+#medicalMenu {
+	Z-INDEX: 20; LEFT: 149px; VISIBILITY: hidden; POSITION: absolute; TOP: 76px
+}
+#nhvMenu {
+	Z-INDEX: 20; LEFT: 149px; VISIBILITY: hidden; POSITION: absolute; TOP: 76px
+}
+#newsMenu {
+	Z-INDEX: 20; LEFT: 149px; VISIBILITY: hidden; POSITION: absolute; TOP: 76px
+}
+#worldMenu {
+	Z-INDEX: 20; LEFT: 149px; VISIBILITY: hidden; POSITION: absolute; TOP: 76px
+}
+#searchMenu {
+	Z-INDEX: 20; LEFT: 149px; VISIBILITY: hidden; POSITION: absolute; TOP: 76px
+}
+</STYLE>
+<SCRIPT language=JavaScript>
+<!-- //
+
+// TIMING FLAGS
+	var pageload = 0;
+
+// BROWSER DETECTION
+	var bn = navigator.appName;
+	var ba = navigator.appVersion;
+	var bu = navigator.userAgent;
+	var bv = parseFloat(navigator.appVersion);
+	var IE = (bn == "Microsoft Internet Explorer");
+		var IE3 = (IE && bv >= 3);
+		var IE4 = (IE && bv >= 4); 
+		var IE41 = (IE && bv >= 4 && ba.indexOf('MSIE 4.0;') < 0 && ba.indexOf('MSIE 4.01;') < 0);
+		var IE5 = (IE && bv >= 4 && ba.indexOf('MSIE 5') > 0);
+	var NS = (bn == "Netscape");
+		var NS3 = (NS && bv >= 3);
+		var NS4 = (NS && bv >= 4);
+		var NS41 = (NS && bv >= 4.1);
+		var NS5 = (NS && bv >= 5);
+		var NS6 = (NS5 && bv >= 4 && bu.indexOf('Netscape6') > 0);
+	var ICAB = (bu.indexOf('iCab') > 0);
+	var Gecko = (bu.indexOf('Gecko') > 0);
+	var Safari = (bu.indexOf('Safari') > 0);
+	var Mozilla = (NS5 && (bu.indexOf('ozilla') > 0) && !Safari && !NS6);
+
+// BROWSER FLAGS
+	var check_mathrandom = (IE3 || NS3 || Gecko) ? 1 : 0;
+	var check_getbyid = (IE5 || NS5 || Gecko) ? 1 : 0;
+	var check_notbyid = (IE4 || NS41) ? 1 : 0;
+	var check_rollovers = (IE4 || Gecko || NS41 && !ICAB) ? 1 : 0;
+	var check_layers = (IE41 || Gecko || NS41 && !ICAB) ? 1 : 0;
+	var check_menus = (IE41 || Gecko || NS41 && !ICAB) ? 1 : 0;
+	var check_ticker = (IE41 || Gecko || NS41 && !ICAB) ? 1 : 0;
+	var check_alttickerstyle = (IE5 || NS6) ? 1 : 0;
+	var check_startticker = (check_ticker && NS6) ? 1 : 0;
+
+// NS BROWSER SAFETY
+	if (document.layers) {origWidth = innerWidth; origHeight = innerHeight; onresize = reDo;}
+	function reDo() {if (innerWidth != origWidth || innerHeight != origHeight) location.reload();}
+	
+// POPUP WINDOW CONTROLS
+	function popcustom(file,title,x,y,sx,sy) {
+		popup = window.open(file,title,'width=' + x + ',height=' + y + ',scrollbars,screenX=' + sx + ',screenY=' + sy + '');
+		if (document.images) {popup.focus();}
+	}
+	function popblank(file) {
+		popup = window.open(file,'blank','width=620,height=420,menubar,toolbar,location,status,resizable,scrollbars,screenX=30,screenY=30');
+		if (document.images) {popup.focus();}
+	}
+
+// HOME PAGE ROLLOVER FUNCTIONS
+	function rollon(i) {if (check_rollovers && pageload) {document[i].src=eval(i + '_on.src'); document['panel'].src=eval(i + '_panel.src');}}	
+	function rolloff(i) {if (check_rollovers && pageload) {document[i].src=eval(i + '_off.src'); document['panel'].src=eval('blank' + '_panel.src');}}
+
+// HOME PAGE LAYER FUNCTIONS
+	function hide_layers () {
+		if (check_rollovers && pageload) {
+			rolloff('about'); rolloff('academics'); rolloff('admissions'); rolloff('alumni'); rolloff('living'); rolloff('working'); rolloff('medical'); rolloff('nhv'); rolloff('world'); rolloff('search'); rolloff('news');
+		}
+		if (check_layers && pageload) {
+			swap_layer('about','hidden'); swap_layer('academics','hidden'); swap_layer('admissions','hidden'); swap_layer('alumni','hidden'); swap_layer('living','hidden'); 
+			swap_layer('working','hidden'); swap_layer('medical','hidden'); swap_layer('nhv','hidden'); swap_layer('news','hidden'); swap_layer('world','hidden'); swap_layer('search','hidden'); 
+		}
+	}
+
+	function swap_layer(l,s) {if (check_layers && pageload) {
+		// var s = hidden | visible
+		if (check_getbyid) {
+			eval('document.getElementById("' + l + 'Menu").style.visibility="' + s + '"');
+		} else if (check_notbyid) {
+			if (IE) {eval('document.all("' + l + 'Menu").style.visibility="' + s + '"');}
+			else {eval('document.layers["' + l + 'Menu"].visibility="' + s + '"');}
+		}
+	}}
+
+// LOAD IMAGES
+if (document.images) {
+	
+	// primary rollover images
+	about_off=new Image(); about_off.src="images/nav/about_off.gif"; about_on=new Image(); about_on.src="images/nav/about_on.gif";
+	news_off=new Image(); news_off.src="images/nav/news_off.gif"; news_on=new Image(); news_on.src="images/nav/news_on.gif";
+	admissions_off=new Image(); admissions_off.src="images/nav/admissions_off.gif"; admissions_on=new Image(); admissions_on.src="images/nav/admissions_on.gif";
+	academics_off=new Image(); academics_off.src="images/nav/academics_off.gif"; academics_on=new Image(); academics_on.src="images/nav/academics_on.gif";
+	alumni_off=new Image(); alumni_off.src="images/nav/alumni_off.gif"; alumni_on=new Image(); alumni_on.src="images/nav/alumni_on.gif";
+	living_off=new Image(); living_off.src="images/nav/living_off.gif"; living_on=new Image(); living_on.src="images/nav/living_on.gif";
+	working_off=new Image(); working_off.src="images/nav/working_off.gif"; working_on=new Image(); working_on.src="images/nav/working_on.gif";
+	medical_off=new Image(); medical_off.src="images/nav/medical_off.gif"; medical_on=new Image(); medical_on.src="images/nav/medical_on.gif";
+	nhv_off=new Image(); nhv_off.src="images/nav/nhv_off.gif"; nhv_on=new Image(); nhv_on.src="images/nav/nhv_on.gif";
+	world_off=new Image(); world_off.src="images/nav/world_off.gif"; world_on=new Image(); world_on.src="images/nav/world_on.gif";
+	search_off=new Image(); search_off.src="images/nav/search_off.gif"; search_on=new Image(); search_on.src="images/nav/search_on.gif";
+
+	// secondary rollover images
+	blank_panel=new Image(); blank_panel.src="images/panel/blank.gif";
+	about_panel=new Image(); about_panel.src="images/panel/about.gif";
+	admissions_panel=new Image(); admissions_panel.src="images/panel/admissions.gif";
+	academics_panel=new Image(); academics_panel.src="images/panel/academics.gif";
+	alumni_panel=new Image(); alumni_panel.src="images/panel/alumni.gif";
+	living_panel=new Image(); living_panel.src="images/panel/living.gif";
+	working_panel=new Image(); working_panel.src="images/panel/working.gif";
+	medical_panel=new Image(); medical_panel.src="images/panel/medical.gif";
+	nhv_panel=new Image(); nhv_panel.src="images/panel/nhv.gif";
+	world_panel=new Image(); world_panel.src="images/panel/world.gif";
+	search_panel=new Image(); search_panel.src="images/panel/search.gif";
+	news_panel=new Image(); news_panel.src="images/panel/news.gif";
+
+}
+	
+// -->
+</SCRIPT>
+<SCRIPT language=JavaScript>
+<!-- //
+
+// RANDOM IMAGE
+	var n = 1; // default image
+	var r = 8; // total number of images -1
+	if (check_mathrandom) {n = (Math.round(Math.random()*r) + 1);} // Math.random does not work in NS2
+	function random_image() {
+		document.write('<a href="images/captions/' + n + '.html" onmouseover=\'hide_layers();\' onmouseout=\'hide_layers();\' onclick="popcustom(\'\',\'custom\',235,200,420,210);" target="custom">');
+		document.write('<img src="images/duotones/' + n + '.jpg" title="" alt="An image of Yale" width=307 height=322 border=0><\/a>');
+	}
+
+// -->
+</SCRIPT>
+<SCRIPT language=JavaScript1.2>
+<!-- //
+
+// TICKER CSS
+	if (check_alttickerstyle) {
+		document.write("<sty" + "le type=\"text\/css\">");
+		document.write("#tickCase {position: relative; width: 590; clip: rect(0 590 26 0);}");
+		document.write("#tickOn {position: relative; clip: rect(0 590 26 0);}");
+		document.write("#tickOff {position: absolute; visibility: hidden}");
+		document.write("A.ticklink {text-decoration: none;}");
+		document.write("<\/sty" + "le>");
+	} else if (check_ticker) {
+		document.write("<sty" + "le type=\"text\/css\">");
+		document.write("#tickCase {position: relative; width: 550; height: 17; clip: rect(0 550 17 0);}");
+		document.write("#tickOn {position: absolute; height: 17; clip: rect(0 550 17 0);}");
+		document.write("#tickOff {position: absolute; visibility: hidden}");
+		document.write("A.ticklink {text-decoration: none; color: #FFFFFF; font-size: 9pt; font-family: Verdana,Geneva,Arial,sans-serif; line-height: 17px;}");
+		document.write("<\/sty" + "le>");
+	}
+
+// TICKER DATA
+	var h = "headlines";
+	
+// TICKER
+	if (check_ticker) {
+		document.write("<script language='JavaScript1.2' src='ticker/headlines/" + h + ".js'><\/script>");
+		document.write("<script language='JavaScript1.2' src='ticker/v5/code.js'><\/script>");
+	}
+	function headline_ticker() {if (check_ticker) {document.write("<script language='JavaScript1.2' src='ticker/v5/box.js'><\/script>");}}
+
+//-->
+</SCRIPT>
+<META content="Microsoft FrontPage 4.0" name=GENERATOR>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+</HEAD>
+<BODY text=#CCCCCC vLink=#66CCFF aLink=#6699CC link=#CCCCCC bgColor=#0044aa 
+leftMargin=12 topMargin=0 marginheight="0" marginwidth="12">
+<table width="660" height="100%" border="0" align="center" cellpadding="1" cellspacing="1">
+  <tr> 
+    <td width="800" height="100%" align="left" valign="top" bgcolor="#F2F2F2"> 
+      <blockquote> 
+        <blockquote>&nbsp;</blockquote>
+      </blockquote>
+      <table width="100%" border="0">
+        <tr> 
+          <td nowrap> <div align="left">
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="90" height="22">
+                <param name=movie value="bintr3.swf">
+                <param name=quality value=high>
+                <embed src="bintr3.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="90" height="22"> 
+                </embed> </object>
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="90" height="22">
+                <param name=movie value="bfields3.swf">
+                <param name=quality value=high>
+                <embed src="bfields3.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="90" height="22"> 
+                </embed> </object>
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="90" height="22">
+                <param name=movie value="bpro3.swf">
+                <param name=quality value=high>
+                <embed src="bpro3.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="90" height="22"> 
+                </embed> </object>
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="90" height="22">
+                <param name=movie value="bach3.swf">
+                <param name=quality value=high>
+                <embed src="bach3.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="90" height="22"> 
+                </embed> </object>
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="120" height="22">
+                <param name="BGCOLOR" value="">
+                <param name=movie value="bstaff4.swf">
+                <param name=quality value=high>
+                <embed src="bstaff4.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="120" height="22"> 
+                </embed> </object>
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="90" height="22">
+                <param name=movie value="binstru3.swf">
+                <param name=quality value=high>
+                <embed src="binstru3.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="90" height="22"> 
+                </embed> </object>
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="90" height="22">
+                <param name=movie value="bexc3.swf">
+                <param name=quality value=high>
+                <embed src="bexc3.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="90" height="22"> 
+                </embed> </object>
+              <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="90" height="22">
+                <param name=movie value="bmail3.swf">
+                <param name=quality value=high>
+                <embed src="bmail3.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="90" height="22"> 
+                </embed> </object>
+            </div></td>
+        </tr>
+      </table>
+      <p align="center"><font size="4"><strong><font color="#3333FF"><em>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;——————————————————</em></font></strong></font> 
+      </p>
+      <blockquote>
+        <div align="left">
+          <p><font size="4"><strong><font color="#3333FF"><em> </em></font></strong></font></p>
+        </div>
+        <div align="center"><font color="#3333FF" size="3" face="Arial, Helvetica, sans-serif"><em><strong></strong></em></font> 
+          <table width="80%" border="1" cellspacing="1" cellpadding="1" height="2500">
+            <tr> 
+              <td height="34" colspan="2"><div align="center"> 
+                  <p align="center"><strong><em><font size="3" color="#000000">～</font><font size="3" face="Arial, Helvetica, sans-serif" color="#000000">Professors</font><font size="3" color="#000000">～</font></em></strong></div></td>
+            </tr>
+            <tr> 
+              <td height="160"> <p align="center"><img src="images/ccs.jpg" width="101" height="160"></td>
+              <td align="justify" height="160"><p><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><strong><em>Chen 
+                  Chengshu</em></strong></font></p>
+                <p align="justify"><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">&nbsp;As 
+                  the Vice-President of Tongji University, Chen's research&nbsp;&nbsp; 
+                  work always focuses on the fatigue of metallic material. Meanwhile, 
+                  he has been awarded for his work by national scientific agency.</font></font></p>
+                <p>　</td>
+            </tr>
+            <tr> 
+              <td height="187"> <p align="center"><img src="images/yb.JPG" width="108" height="160"></p></td>
+              <td height="187"><p><font color="#FFFFFF"><strong><font color="#3333FF" size="3" face="Arial, Helvetica, sans-serif"><em>Yan 
+                  Biao</em></font></strong></font></p>
+                <p align="justify"><font color="#FFFFFF"><font color="#3333FF" size="3" face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">As 
+                  the Chief Director of IMMR and Vice-director of </font></font><font color="#3333ff" size="2"><font face="Arial, Helvetica, sans-serif">Shanghi 
+                  Key Lab for Metallic Functional Materials,Yan's investigative 
+                  fields are RE-ZnAl, Mg-based, Al-based alloy</font></font></font><font color="#3333ff" size="2" face="Arial, Helvetica, sans-serif">&nbsp; 
+                  and Fe-based nanocrystalline soft magnetic alloy etc. Because 
+                  of his excellent work,&nbsp; more achievments were award -ed 
+                  and adopted in applications.</font></p></td>
+            </tr>
+            <tr> 
+              <td height="160"> <p align="center"><img src="images/hgq.JPG" width="111" height="160"></p></td>
+              <td height="160"><p><font color="#3333ff" size="3" face="Arial, Helvetica, sans-serif"><strong><em>He 
+                  Guoqiu</em></strong></font></p>
+                <p align="justify"><font color="#3333ff" size="3" face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">&nbsp;As 
+                  the Director of IMMR and Vice-director of Shanghai Key Lab for 
+                  Metallic Functional Materials. He's Investigative fields: Shape 
+                  Memory alloy and the Mechanical properties of it.</font></font><font size="2" face="Arial, Helvetica, sans-serif"><br>
+                  </font><font size="2"> </font> </p></td>
+            </tr>
+            <tr> 
+              <td height="160"><div align="center"><img border="0" src="images/mpl.jpg" width="120" height="160"></div></td>
+              <td height="160"><font color="#3333ff" size="3" face="Arial, Helvetica, sans-serif"><strong><em>Mao</em></strong></font> 
+                <font color="#3333ff" size="3" face="Arial, Helvetica, sans-serif"><strong><em>Pengling</em></strong></font> 
+                <p><font color="#3333ff" size="3" face="Arial, Helvetica, sans-serif"><em><strong>&nbsp;&nbsp;</strong></em><font size="2">His 
+                  research fields include Ti-based alloy, shape memory alloy, 
+                  stainless steel , microscopic theory on metallic materials and 
+                  in- vestigation method on modern physics.&nbsp;</font>&nbsp;<em><strong>&nbsp;</strong></em></font><b><font color="3333ff" size="3">&nbsp; 
+                  </font></b></p>
+                <p>　</td>
+            </tr>
+            <tr> 
+              <td width="100" height="165"> <p align="center"><img src="images/photo.jpg" width="118" height="160" align="absmiddle"></p></td>
+              <td height="165"><p><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><strong><em><br>
+                  Zhang Jingguo</em></strong></font></p>
+                <p align="justify"><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">The 
+                  senior professional of rapid solidification especially in spray 
+                  forming technique. He was elected as the chairman of international 
+                  spray forming academic conference for several times and his 
+                  papers&nbsp;are particularly influential in the world.</font></font></p>
+                <p>&nbsp;</p></td>
+            </tr>
+            <tr>
+              <td height="160"><div align="center"><img border="0" src="images/zyz.jpg" width="118" height="160" align="middle"></div></td>
+              <td height="160"><p><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><strong><em>Zhang 
+                  Yanzhong</em></strong></font></p>
+                <p align="justify"><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">The 
+                  senior professional of magnetic materials research field has 
+                  created more empirical formulas to explain the core loss of 
+                  soft mag- netic materials and developed more Fe-based nanocrystalline 
+                  soft magnetic alloy. What he has achieved appealed the attention 
+                  from&nbsp;home and abroad.</font></font></p></td>
+            </tr>
+            <tr> 
+              <td width="100" height="160"> <p align="center"><img src="IMAGES/wjc.jpg" width="120" height="157" align="middle"></p></td>
+              <td height="160"><p><em><strong><font color="#3333ff" size="3" face="Arial, Helvetica, sans-serif">Wang 
+                  Jingcheng</font></strong></em></p>
+                <p><font color="#3333ff" size="2" face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;The 
+                  senior professional of Positron Annihilation Spectroscopy has 
+                  commited more important projects including research on shape 
+                  memory,steel ,amorphous and nanocrystalline alloy etc.The publication 
+                  of him are almost influencial in his academic field . </font></p>
+                </td>
+            </tr>
+            <tr> 
+              <td height="34" colspan="2"> <p align="center"><strong><em><font size="3" face="Arial, Helvetica, sans-serif" color="#000000">~Consultant 
+                  Professors~</font></em></strong></td>
+            </tr>
+            <tr> 
+              <td height="34"> <p align="center"><img src="images/tmj.jpg" width="123" height="157" border="0" align="middle"></td>
+              <td height="34"><strong><font color="#3333FF" size="3"><br>
+                </font><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><em>Tu</em></font><font color="#3333FF" size="3"> 
+                </font><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><em>Mingjing</em></font></strong> 
+                <p align="justify"><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">Professor 
+                  of Sichuan University, the memeber&nbsp; of Chian </font><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><font size="2">Academy 
+                  of </font></font><font size="2">Engineering . In the past few 
+                  decades, he was devoted to studying&nbsp; functional alloys 
+                  and com- posite materials such as hard magnetic alloys and environmental 
+                  materials etc.which is famous for his outstanding work in his 
+                  fields.</font></font></p>
+                <p>　</td>
+            </tr>
+            <tr> 
+              <td height="34"> <p align="center"><img border="0" src="images/zt.jpg" width="118" height="160"></td>
+              <td height="34"><strong><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><em><br>
+                Zhang Tao</em></font></strong> <p align="justify"><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><em><strong>&nbsp;&nbsp;&nbsp;</strong></em><em><strong><font size="2"> 
+                  </font></strong></em><font size="2">The excellent assistant&nbsp; 
+                  of Akihisa Inoue belonged to Institute for Metal Material Research 
+                  formerly and now he was recruited&nbsp; by Beijing University 
+                  of Aviation and Astronomy. What he majors in&nbsp; are&nbsp; 
+                  amorphous and nanocrystalline material.</font></font></p>
+                <p>　</td>
+            </tr>
+            <tr> 
+              <td height="34" colspan="2"><div align="center"> 
+                  <p align="center"><strong><em><font size="3" color="#000000">～</font><font size="3" face="Arial, Helvetica, sans-serif" color="#000000">Engineers</font><font size="3" color="#000000">～</font></em></strong></div></td>
+            </tr>
+            <tr> 
+              <td height="160"><div align="center"><img src="images/photo.jpg" width="112" height="160"></div></td>
+              <td height="160"><p><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><strong><em>Chen 
+                  Rong</em></strong></font></p>
+                <p><font color="3333ff" size="2"> &nbsp;&nbsp;&nbsp;<font face="Arial, Helvetica, sans-serif">&nbsp;</font></font><font color="3333ff" size="2" face="Arial, Helvetica, sans-serif">Chen 
+                  majors in the preparation process, property and mechanism of 
+                  metallic ultrafine powder.</font></p></td>
+            </tr>
+            <tr> 
+              <td width="100" height="160"> <p align="center"><img border="0" src="images/trj.jpg" align="left" width="120" height="160"></p></td>
+              <td height="160"><p><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><strong><em>Tang 
+                  Renjian</em></strong></font></p>
+                <p align="justify"><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">Tang 
+                  is the senior researcher of ZnAl alloy,also as the manager of 
+                  IMMR and Shanghai Key Lab of Metallic Functional Materials.</font></font></p></td>
+            </tr>
+            <tr> 
+              <td height="160"><div align="center"><img src="images/photo.jpg" width="112" height="160"></div></td>
+              <td valign="top" height="160"><p><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><strong><em><br>
+                  Jiang Kaiyan</em></strong></font></p>
+                <p><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">&nbsp;&nbsp;Jiang 
+                  is devoted to research on foam Al-based alloy.</font></font></p></td>
+            </tr>
+            <tr> 
+              <td height="160"> <p align="center"><img src="IMAGES/wj.jpg" width="120" height="151" align="middle"></p></td>
+              <td valign="top" height="160"><p><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><strong><em><br>
+                  </em></strong><em><strong>Wang Jun</strong></em></font></p>
+                <p><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wang 
+                  is devoted to research on Spray Forming technique and Cu-Ni-Sn 
+                  alloy.</font></font> 
+                <p><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><strong><em> 
+                  </em></strong></font></p></td>
+            </tr>
+            <tr> 
+              <td height="34" colspan="2"><div align="center"> 
+                  <p align="center"><strong><em><font size="3" color="#000000">～</font><font size="3" face="Arial, Helvetica, sans-serif" color="#000000">Technicians</font><font size="3" color="#000000">～</font></em></strong></div></td>
+            </tr>
+            <tr> 
+              <td height="160"> <p align="center"><img border="0" src="images/yjl.jpg" width="120" height="158"></p></td>
+              <td height="160"><p><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><strong><em>Yin 
+                  Junlin</em></strong></font></p>
+                <p align="justify"><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">Yin 
+                  is the perfect professional majoring in TEM.He often attends 
+                  the key&nbsp; projects&nbsp; on&nbsp; metallic&nbsp; materials&nbsp; 
+                  and&nbsp; creates&nbsp;&nbsp; more&nbsp;&nbsp;&nbsp; experimental 
+                  method.</font></font></p></td>
+            </tr>
+            <tr> 
+              <td height="160"> <p align="center"><img src="IMAGES/yfq.jpg" width="115" height="153"></p></td>
+              <td height="160"><p><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"><strong><em>You 
+                  Fuqiang</em></strong></font></p>
+                <p align="justify"><font color="3333ff" size="3" face="Arial, Helvetica, sans-serif"> 
+                  &nbsp;&nbsp;&nbsp;&nbsp;<font size="2">You is versed in maintenance 
+                  and mend of electronic instruments including TEM,SEM and so 
+                  on.</font></font></p></td>
+            </tr>
+            <tr> 
+              <td height="161" colspan="2"><p align="center"><strong><font color="#000000" size="3">～</font><font color="#000000" size="3" face="Arial, Helvetica, sans-serif">Doctoral 
+                  Candidate</font><font color="#000000" size="3">～</font></strong><font color="3333ff" size="3"><br>
+                  <br>
+                  </font><font color="3333ff" size="2" face="Arial, Helvetica, sans-serif"> 
+                  Yang Lei, Ding Xiangqun, Lu Wei, Zhu Zhenyu</font></p>
+                <p align="center"><strong><font color="#000000" size="3">～</font><font color="#000000" size="3" face="Arial, Helvetica, sans-serif">Masteral 
+                  Candidate</font><font color="#000000" size="3">～</font></strong><font color="3333ff" size="3"><br>
+                  <br>
+                  </font><font color="3333ff" size="2" face="Arial, Helvetica, sans-serif"> 
+                  Qin Guihong, Liu Xiaoshan, Li Yang, Li Gang, Shao Weidong, Lou 
+                  Haiyi </font></p></td>
+            </tr>
+          </table>
+        </div>
+        <p><strong><font color="#3333FF" size="2" face="Arial, Helvetica, sans-serif"></font></strong></p>
+        <p>&nbsp;</p>
+        <blockquote> 
+          <blockquote>
+            <p><strong><font color="#3333FF" size="4" face="Arial, Helvetica, sans-serif"></font></strong></p>
+          </blockquote>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </blockquote>
+        <p align="center"><font color="#3333FF"><font color="#6666FF" size="4" face="Arial, Helvetica, sans-serif"><strong><font size="2"><br>
+          <br>
+          <br>
+          Institute For Metal-based Materials Research ,Tongji University</font></strong></font></font>  
+        </p>
+        </blockquote></td>
+  </tr>
+</table>
+</BODY></HTML>
